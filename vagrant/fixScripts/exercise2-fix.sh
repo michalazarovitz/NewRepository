@@ -1,2 +1,4 @@
 #!/bin/bash
-#add fix to exercise2 here
+#remove the last line in /etc/hosts 
+
+ sudo sed -i '$ d' /etc/hosts
